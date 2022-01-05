@@ -1,3 +1,9 @@
+"""
+Tutorial
+https://youtu.be/GMppyAPbLYk?list=PLIjfLg4gyecLdZK_gKz7SFYWUN7GbKsuZ
+"""
+
+
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort, fields, marshal_with
 from flask_sqlalchemy import SQLAlchemy
