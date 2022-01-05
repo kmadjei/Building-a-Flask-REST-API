@@ -1,0 +1,13 @@
+pip install -r requirements.txt  
+pip install flask-restful
+
+Flask Rest API Documentation
+https://flask-restful.readthedocs.io/en/latest/
+
+Tutorial
+https://youtu.be/GMppyAPbLYk?list=PLIjfLg4gyecLdZK_gKz7SFYWUN7GbKsuZ
+
+REST API Reference 
+https://www.tutorialsteacher.com/articles/aviation-rest-api-aviationstack
+
+test.py was used to send requests to Flask Rest API 
