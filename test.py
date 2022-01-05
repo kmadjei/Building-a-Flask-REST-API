@@ -12,11 +12,8 @@ for i in range (len(data)):
     response = requests.put(BASE + "video/" + str(i), data[i])
     print(response.json())
 
+
 input()
-response = requests.delete(BASE + "video/0")
-# for non serializeable JSON formatted string
-print(response) 
-input()
-response = requests.get(BASE + "video/2")
+response = requests.get(BASE + "video/6")
 # prints serializable JSON fromatted string
 print(response.json())
